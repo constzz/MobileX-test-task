@@ -47,6 +47,11 @@ class QuizActivity : AppCompatActivity() {
     private fun continueGame() {
         val gameContinues = currentQuestionNumber != MAX_QUESTIONS_NUMBER
 
+        //If answer was selected and it is correct
+        if (answerIsCorrect()) {
+            currentGameScore++ //Add score point if the selected answer was correct
+        }
+
         //If game is finished yet
         if (!gameContinues) {
             finishGame()
@@ -63,10 +68,6 @@ class QuizActivity : AppCompatActivity() {
                 )
                     .show()
                 return
-            }
-            //If answer was selected and it is correct
-            if (answerIsCorrect()) {
-                currentGameScore++ //Add score point if the selected answer was correct
             }
             moveToNextQuestion() //After a few seconds the next question will be shown
         } else {
