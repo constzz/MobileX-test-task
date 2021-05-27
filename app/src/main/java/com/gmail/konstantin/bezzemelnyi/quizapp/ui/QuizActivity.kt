@@ -1,4 +1,4 @@
-package com.gmail.konstantin.bezzemelnyi.quizapp
+package com.gmail.konstantin.bezzemelnyi.quizapp.ui
 
 import android.content.Intent
 import android.content.res.ColorStateList
@@ -9,6 +9,9 @@ import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
 import androidx.core.view.forEach
+import com.gmail.konstantin.bezzemelnyi.quizapp.R
+import com.gmail.konstantin.bezzemelnyi.quizapp.model.Quiz
+import com.gmail.konstantin.bezzemelnyi.quizapp.model.quizData
 import kotlin.math.roundToInt
 
 

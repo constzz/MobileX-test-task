@@ -1,6 +1,7 @@
-package com.gmail.konstantin.bezzemelnyi.quizapp
+package com.gmail.konstantin.bezzemelnyi.quizapp.model
 
 import android.content.Context
+import com.gmail.konstantin.bezzemelnyi.quizapp.R
 
 //Context in parameters to get string resources of application
 class Quiz(private val context: Context) {

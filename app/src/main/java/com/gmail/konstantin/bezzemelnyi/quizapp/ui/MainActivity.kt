@@ -1,9 +1,10 @@
-package com.gmail.konstantin.bezzemelnyi.quizapp
+package com.gmail.konstantin.bezzemelnyi.quizapp.ui
 
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
+import com.gmail.konstantin.bezzemelnyi.quizapp.R
 
 class MainActivity : AppCompatActivity() {
 

@@ -1,4 +1,4 @@
-package com.gmail.konstantin.bezzemelnyi.quizapp
+package com.gmail.konstantin.bezzemelnyi.quizapp.model
 
 data class Answer(
     val name: String,
