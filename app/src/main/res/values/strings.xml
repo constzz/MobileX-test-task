@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Quiz App</string>
+    <!--Main activity-->
+    <string name="app_description">Quiz app for MobileX</string>
+    <!--Question 1-->
+    <string name="question_1">Question 1</string>
+    <string name="question_1_answer_1">Answer 1</string>
+    <string name="question_1_answer_2">Answer 2</string>
+    <string name="question_1_answer_3">Answer 3</string>
+    <string name="question_1_answer_4">Answer 4</string>
+    <!--Question 2-->
+    <string name="question_2">Question 2</string>
+    <string name="question_2_answer_1">Answer 1</string>
+    <string name="question_2_answer_2">Answer 2</string>
+    <string name="question_2_answer_3">Answer 3</string>
+    <string name="question_2_answer_4">Answer 4</string>
+    <!--Question 3-->
+    <string name="question_3">Question 3</string>
+    <string name="question_3_answer_1">Answer 1</string>
+    <string name="question_3_answer_2">Answer 2</string>
+    <string name="question_3_answer_3">Answer 3</string>
+    <string name="question_3_answer_4">Answer 4</string>
+    <string name="start">Start</string>
+    <string name="answer_not_selected">Answer was not selected</string>
+    <string name="correct_answers_from">" CORRECT ANSWERS FROM "</string>
+    <string name="your_average_success_rank">"Your average success rank: "</string>
+    <string name="restart">RESTART</string>
+    <string name="exit">EXIT</string>
+    <string name="app_info">Quiz app for MobileX</string>
+    <string name="continue_btn_text">CONTINUE</string>
+
+</resources>

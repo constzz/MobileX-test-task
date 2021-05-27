@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Quiz App</string>
+    <string name="question_1">Вопрос 1</string>
+    <string name="question_2">Вопрос 2</string>
+    <string name="question_3">Вопрос 3</string>
+    <string name="question_3_answer_1">Ответ 1</string>
+    <string name="question_3_answer_2">Ответ 2</string>
+    <string name="question_3_answer_3">Ответ 3</string>
+    <string name="question_3_answer_4">Ответ 4</string>
+    <string name="question_2_answer_4">Ответ 4</string>
+    <string name="question_2_answer_3">Ответ 3</string>
+    <string name="question_2_answer_2">Ответ 2</string>
+    <string name="question_2_answer_1">Ответ 1</string>
+    <string name="question_1_answer_4">Ответ 4</string>
+    <string name="question_1_answer_3">Ответ 3</string>
+    <string name="question_1_answer_2">Ответ 2</string>
+    <string name="question_1_answer_1">Ответ 1</string>
+    <string name="app_description">Quiz приложение для MobileX</string>
+    <string name="start">Начать</string>
+    <string name="answer_not_selected">Вы не выбрали ответ</string>
+    <string name="correct_answers_from">" ПРАВИЛЬНЫХ ОТВЕТОВ ИЗ "</string>
+    <string name="your_average_success_rank">"Ваш средний показатель успеха: "</string>
+    <string name="restart">ЕЩЁ РАЗ</string>
+    <string name="exit">ВЫЙТИ</string>
+    <string name="app_info">Qiuz app for MobileX</string>
+    <string name="continue_btn_text">ПРОДОЛЖИТЬ</string>
+</resources>

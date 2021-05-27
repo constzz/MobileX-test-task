@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QuizActivity">
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/quiz_activity_question_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Question: 0/1" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/quiz_activity_score_counter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/quiz_activity_question_status"
+        tools:text="Score: 0" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/quiz_activity_score_counter">
+
+        <RadioGroup
+            android:id="@+id/quiz_activity_answers_radio_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <com.google.android.material.radiobutton.MaterialRadioButton
+                android:id="@+id/quiz_activity_answer_1_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="first answer" />
+
+            <com.google.android.material.radiobutton.MaterialRadioButton
+                android:id="@+id/quiz_activity_answer_2_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="second answer" />
+
+            <com.google.android.material.radiobutton.MaterialRadioButton
+                android:id="@+id/quiz_activity_answer_3_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="third answer" />
+
+            <com.google.android.material.radiobutton.MaterialRadioButton
+                android:id="@+id/quiz_activity_answer_4_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="fourth answer" />
+
+        </RadioGroup>
+    </ScrollView>
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/quiz_activity_continue_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="@string/continue_btn_text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
